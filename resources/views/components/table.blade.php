@@ -97,7 +97,7 @@
                                 <tr><td colspan="2"><i>Cargando datos...</i></td></tr>
                             </template>
                             
-                            <template x-for="(item,index) in paginate" :key="item">
+                            <template x-for="(item,index) in paginate" :key="item.skill">
                                 {{ $tbody }}
                             </template>
 

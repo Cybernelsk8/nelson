@@ -1507,6 +1507,9 @@ select {
 .bg-opacity-60 {
   --tw-bg-opacity: 0.6;
 }
+.bg-opacity-20 {
+  --tw-bg-opacity: 0.2;
+}
 .object-cover {
   -o-object-fit: cover;
      object-fit: cover;
@@ -1731,6 +1734,18 @@ select {
 }
 .opacity-75 {
   opacity: 0.75;
+}
+.opacity-10 {
+  opacity: 0.1;
+}
+.opacity-50 {
+  opacity: 0.5;
+}
+.opacity-60 {
+  opacity: 0.6;
+}
+.opacity-80 {
+  opacity: 0.8;
 }
 .shadow-sm {
   --tw-shadow: 0 1px 2px 0 rgb(0 0 0 / 0.05);
