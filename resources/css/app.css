@@ -1,0 +1,19 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+.th{
+    @apply px-4 py-3 cursor-pointer text-left text-xs font-bold uppercase; 
+}
+
+.tooltip {
+    @apply invisible absolute;
+}
+
+.has-tooltip:hover .tooltip {
+    @apply visible z-50;
+}
+
+html{
+    scroll-behavior: smooth;
+}
